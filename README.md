@@ -1,11 +1,16 @@
 # nestjs_a_json_to_all
 
-## Put beg.py into your nestjs project folder
+Put beg.py into your nestjs project folder
 ## Run
 ipython beg.py your_entity_name your_entity.json
+## Json
+your_entity.json contains the structure of your entity, it looks exactly same as the json you sent to server or responsed.
 
-your_entity.json contains the structure of your entity, it looks exactly same as the json you sent to server or responsed
-For example: {"name": "hi", "age": 1} , this json will convert to a entity file like this:
+For example: 
+test.json
+{"name": "hi", "age": 1} 
+This json will convert to a entity file like this:
+test.entity.ts
 export class Test {
         @PrimaryGeneratedColumn()
         @ApiModelProperty()
