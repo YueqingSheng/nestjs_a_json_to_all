@@ -14,7 +14,7 @@ test.json
 This json will convert to a entity file like this:
 
 test.entity.ts
-
+```typescript
 export class Test {
         @PrimaryGeneratedColumn()
         @ApiModelProperty()
@@ -28,3 +28,4 @@ export class Test {
         @ApiModelProperty()
         age: number;
 }
+```
