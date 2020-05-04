@@ -1,4 +1,6 @@
 # nestjs_a_json_to_all
+Pass a json and get all crud apis and swagger documents.
+Developed based on @nestjx/crud
 ## Prerequisite
 python > 3.7
 
