@@ -7,11 +7,12 @@ ipython beg.py your_entity_name your_entity.json
 your_entity.json contains the structure of your entity, it looks exactly same as the json you sent to server or responsed.
 
 For example: 
+
 test.json
 
 {"name": "hi", "age": 1} 
 
-This json will convert to a entity file like this:
+This json will convert to an entity file like this:
 
 test.entity.ts
 ```typescript
