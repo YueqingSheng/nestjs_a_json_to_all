@@ -8,6 +8,8 @@ install @nest/cli
 
 install @nestjx/crud
 
+install @nestjs/swagger
+
 put beg.py into your nestjs project folder
 
 ## Run
