@@ -1,6 +1,15 @@
 # nestjs_a_json_to_all
+## Prerequisite
+python > 3.7
 
-Put beg.py into your nestjs project folder
+intsall ipython
+
+install @nest/cli
+
+install @nestjx/crud
+
+put beg.py into your nestjs project folder
+
 ## Run
 ipython beg.py your_entity_name your_entity.json
 ## Json
@@ -10,7 +19,7 @@ For example:
 
 test.json
 
-{"name": "hi", "age": 1} 
+        {"name": "hi", "age": 1} 
 
 This json will convert to an entity file like this:
 
