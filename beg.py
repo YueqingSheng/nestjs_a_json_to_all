@@ -62,6 +62,8 @@ if __name__ == "__main__":
                 colums.append(f"\n\n  @Column()\n  @ApiModelProperty()\n  {x}: string;")
             if type(test_load[x]) == int:
                 colums.append(f"\n\n  @Column()\n  @ApiModelProperty()\n  {x}: number;")
+            if type(test_load[x]) == bool:
+                colums.append(f"\n\n  @Column()\n  @ApiModelProperty()\n  {x}: boolean;")
         #reconstruct list to string
         colums = ''.join(colums)
         colums
