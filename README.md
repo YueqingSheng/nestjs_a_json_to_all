@@ -43,3 +43,4 @@ export class Test {
         age: number;
 }
 ```
+And then it will generate module, controller, service and all crud apis you need.
