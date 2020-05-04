@@ -8,9 +8,13 @@ your_entity.json contains the structure of your entity, it looks exactly same as
 
 For example: 
 test.json
+
 {"name": "hi", "age": 1} 
+
 This json will convert to a entity file like this:
+
 test.entity.ts
+
 export class Test {
         @PrimaryGeneratedColumn()
         @ApiModelProperty()
