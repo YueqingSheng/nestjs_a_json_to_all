@@ -15,7 +15,7 @@ install @nestjs/swagger
 put beg.py into your nestjs project folder
 
 ## Run
-ipython beg.py your_entity_name.json
+ipython beg.py entity_name.json
 ## Json
 your_entity.json contains the structure of your entity, it looks exactly same as the json you sent to server or responsed.
 
