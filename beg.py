@@ -17,7 +17,12 @@ if __name__ == "__main__":
 
 
         # Module name, and data content
-        name = sys.argv[1]
+        filename = sys.argv[1]
+        name =  sys.argv[1]
+
+        splits = filename.split('.')
+        if len(splits) == 2:
+          name = splits[0] ## extract filename
         name = name.lower()
         entity_name = name.capitalize()
         # Json
@@ -48,7 +53,7 @@ if __name__ == "__main__":
         # In[43]:
 
 
-        with open(f'{sys.argv[2]}', 'r') as file:
+        with open(f'{filename}', 'r') as file:
             test_load = json.load(file)
         test_load
 

@@ -15,19 +15,19 @@ install @nestjs/swagger
 put beg.py into your nestjs project folder
 
 ## Run
-ipython beg.py your_entity_name your_entity.json
+ipython beg.py your_entity_name.json
 ## Json
 your_entity.json contains the structure of your entity, it looks exactly same as the json you sent to server or responsed.
 
-For example: 
+For example:
 
-test.json
+**test.json**
 
-        {"name": "hi", "age": 1} 
+        {"name": "hi", "age": 1}
 
 This json will convert to an entity file like this:
 
-test.entity.ts
+**test.entity.ts**
 ```typescript
 export class Test {
         @PrimaryGeneratedColumn()
@@ -43,3 +43,5 @@ export class Test {
         age: number;
 }
 ```
+**Swagger**
+![](https://yueqingsheng.github.io/post-images/1588622024790.png)
