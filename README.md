@@ -43,6 +43,7 @@ export class Test {
         age: number;
 }
 ```
+And automatically generate corresponding module, service, controller, Swagger documents and update app.module.
 **Swagger**
 
 ![](https://yueqingsheng.github.io/post-images/1588622024790.png)
